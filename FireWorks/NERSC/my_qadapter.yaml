@@ -3,7 +3,7 @@ _fw_q_type: SLURM
 rocket_launch: rlaunch -l /global/homes/v/vidyagan/DOE-HPC-workflow-training/FireWorks/NERSC/my_launchpad.yaml -w /global/homes/v/vidyagan/DOE-HPC-workflow-training/FireWorks/NERSC/my_fworker2.yaml singleshot
 constraint: cpu
 nodes: 2
-account: m2859
+account: ntrain7
 walltime: '00:05:00'
 queue: regular
 job_name: null
