@@ -1,9 +1,9 @@
 _fw_name: CommonAdapter
 _fw_q_type: SLURM
 rocket_launch: rlaunch -l /global/homes/v/vidyagan/DOE-HPC-workflow-training/FireWorks/NERSC/my_launchpad.yaml -w /global/homes/v/vidyagan/DOE-HPC-workflow-training/FireWorks/NERSC/my_fworker2.yaml singleshot
-constraint: cpu
+constraint: gpu
 nodes: 2
-account: m2859
+account: m2859_g
 walltime: '00:05:00'
 queue: regular
 job_name: null
